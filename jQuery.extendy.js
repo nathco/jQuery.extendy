@@ -1,6 +1,7 @@
-// jQuery tasks re-packaged as independent utility methods
-// Source: github.com/NathanRutzky/jQuery.extendy
-// Version: 1.0
+// Plugin: jQuery.extendy
+// Source: github.com/nathco/jQuery.extendy
+// Author: Nathan Rutzky
+// Update: 1.0
 
 (function($) {
 
@@ -259,6 +260,6 @@
             
         reverse: [].reverse
                 
-    });    	
+    });
 
 })(jQuery);

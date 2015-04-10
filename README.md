@@ -128,4 +128,4 @@ $(window).resizeEnd(function() {
 Want to contribute? Submit a `Pull Request` with the proposed method extension—please keep it simple and use a relevant ( to existing code ) naming convention.
 
 ## Feedback
-If you discover any issues or have questions regarding usage, please send a message to [mail@nath.co](mailto:mail@nath.co) or find me on twitter [@NathanRutzky](http://twitter.com/NathanRutzky).
+If you discover any issues or have questions regarding usage, please send a message to [code@nath.co](mailto:code@nath.co) or find me on GitHub [@nathco](https://github.com/nathco).
