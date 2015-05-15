@@ -73,7 +73,10 @@ $(window).resizeEnd(function() {
 `Fade toggle matched elements and class simultaneously`
 
 **.fadeToggleId( name, duration )**   
-`Fade toggle matched elements and id simultaneously`
+`Fade toggle matched elements and id simultaneously`  
+
+**.slideFadeToggle( duration, easing, callback )**   
+`Slide toggle and fade the opacity of matched elements`
 
 **.slideToggleAttr( attr, name, duration, easing )**   
 `Slide toggle matched elements and attribute simultaneously`
@@ -124,8 +127,11 @@ $(window).resizeEnd(function() {
 `Iterate all matched elements in reverse order`
   
 
-## Contribute
-Want to contribute? Submit a `Pull Request` with the proposed method extension—please keep it simple and use a relevant ( to existing code ) naming convention.
+## Release Notes
+**jQuery.extendy 1.0**   
+– Initial Release   
+**jQuery.extendy 1.0.1**      
+– Added method for `slideFadeToggle`   
 
 ## Feedback
 If you discover any issues or have questions regarding usage, please send a message to [code@nath.co](mailto:code@nath.co) or find me on GitHub [@nathco](https://github.com/nathco).

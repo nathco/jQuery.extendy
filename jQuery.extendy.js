@@ -1,7 +1,7 @@
 // Plugin: jQuery.extendy
 // Source: github.com/nathco/jQuery.extendy
 // Author: Nathan Rutzky
-// Update: 1.0
+// Update: 1.0.1
 
 (function($) {
 
@@ -122,6 +122,15 @@
                                  
             });         
         },
+        
+        slideFadeToggle: function(duration, easing, callback) {
+            
+            return this.animate({
+                
+                opacity: 'toggle', height: 'toggle'
+                
+            }, duration, easing, callback);
+        }, 
         
         slideToggleAttr: function(attr, name, duration, easing) {
         
